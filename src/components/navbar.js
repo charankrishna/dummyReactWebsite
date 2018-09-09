@@ -5,7 +5,7 @@ var NavLink = require('react-router-dom').NavLink;
 class Navbar extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div>
         <nav className="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div className="container">
         <NavLink className="navbar-brand" to='/'>Racks</NavLink>
